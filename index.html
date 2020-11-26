@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
   <link rel="stylesheet" href="./assets/css/style.css" />
   <title>Taskmaster Pro</title>
 </head>
@@ -25,54 +26,43 @@
     </header>
     <main class="mt-auto col-12 col-lg-9 d-flex flex-column">
       <div class="m-5 row justify-content-around">
-        <div class="m-5 row justify-content-around">
-          <!-- todo start -->
-          <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <div class="card">
-              <h4 class="card-header bg-dark text-light">To Do</h4>
-              <ul id="list-toDo" class="list-group"></ul>
-            </div>
+        <!-- todo start -->
+        <div class="col-12 col-md-6 col-xl-3 mb-3">
+          <div class="card">
+            <h4 class="card-header bg-dark text-light">To Do</h4>
+            <ul id="list-toDo" class="list-group"></ul>
           </div>
-          <!-- todo end -->
-          <!-- in progress start -->
-          <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <div class="card">
-              <h4 class="card-header bg-dark text-light">In Progress</h4>
-              <ul id="list-inProgress" class="list-group">
-                <li class="list-group-item">
-            
-
-                </li>
-              </ul>
-            </div>
+        </div>
+        <!-- todo end -->
+        <!-- in progress start -->
+        <div class="col-12 col-md-6 col-xl-3 mb-3">
+          <div class="card">
+            <h4 class="card-header bg-dark text-light">In Progress</h4>
+            <ul id="list-inProgress" class="list-group">
+              <li class="list-group-item"></li>
+            </ul>
           </div>
-          <!-- in progress end -->
-          <!-- in review start -->
-          <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <div class="card">
-              <h4 class="card-header bg-dark text-light">In Review</h4>
-              <ul id="list-inReview" class="list-group">
-                <li class="list-group-item">
-                  
-                </li>
-              </ul>
-            </div>
+        </div>
+        <!-- in progress end -->
+        <!-- in review start -->
+        <div class="col-12 col-md-6 col-xl-3 mb-3">
+          <div class="card">
+            <h4 class="card-header bg-dark text-light">In Review</h4>
+            <ul id="list-inReview" class="list-group">
+            </ul>
           </div>
-          <!-- in review end -->
-          <!-- done start -->
-          <div class="col-12 col-md-6 col-xl-3 mb-3">
-            <div class="card">
-              <h4 class="card-header bg-dark text-light">Done</h4>
-              <ul id="list-done" class="list-group">
-                <li class="list-group-item">
-                  
-                </li>
-             </ul>
-            </div>
+        </div>
+        <!-- in review end -->
+        <!-- done start -->
+        <div class="col-12 col-md-6 col-xl-3 mb-3">
+          <div class="card">
+            <h4 class="card-header bg-dark text-light">Done</h4>
+            <ul id="list-done" class="list-group">
+            </ul>
           </div>
-          <!-- done end -->
-        </div>                                                                                            <q>   </q>
-      </div>
+        </div>
+        <!-- done end -->
+      </div>                                                                                            
       <div id="trash">
         <div class="w-100 bg-danger p-3 text-center text-light display-4">
           Drop Here to Remove.
@@ -113,6 +103,7 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="./assets/js/script.js"></script>
